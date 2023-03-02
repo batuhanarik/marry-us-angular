@@ -15,11 +15,11 @@ const routes: Routes = [
         loadChildren: () =>
           import('./components/home/home.routes').then((m) => m.HOME_ROUTES),
       },
-      // {
-      //   path: 'weddingplaces',
-      //   loadChildren:()=>
-      //     import('./weddingplace/weddingplace.routes').then((m)=>m.WEDDINGPLACE_ROUTES),
-      // },
+      {
+        path: 'weddingplaces',
+        loadChildren:()=>
+          import('./components/wedding-place/weddingplace.routes').then((m)=>m.WEDDINGPLACES_ROUTES),
+      },
     ],
   },
   {

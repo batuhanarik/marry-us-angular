@@ -14,7 +14,6 @@ import { environment } from 'src/environments/environment';
 import { ApiInterceptor } from './interceptors/api.interceptor';
 import tr from '@angular/common/locales/tr';
 import { registerLocaleData } from '@angular/common';
-import { FooterComponent } from './components/footer/footer.component';
 
 registerLocaleData(tr);
 
